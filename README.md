@@ -5,7 +5,7 @@ with End-to-end Learning of Neural Networks for Graphs and Sequence" (Tsubaki et
 
 The code provides two major scripts:
 
-- code/preprocess_data.py creates the input data of compound-protein interaction
+- code/preprocess_data.py creates the input data of compound-protein interaction.
 See the dataset in the directry as follows: dataset/sample/original/smiles_sequence_interaction.txt.
 - code/run_training.py trains a neural network to predict the compound-protein interaction
 using the above created input data.
