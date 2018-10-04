@@ -1,7 +1,7 @@
 # Compound-protein Interaction Prediction
 
 The code for "Compound-protein Interaction Prediction
-with End-to-end Learning of Neural Networks for Graphs and Sequence" (Bioinformatics, 2018).
+with End-to-end Learning of Neural Networks for Graphs and Sequence" (Tsubaki et al., Bioinformatics, 2018).
 
 The code provides two major scripts:
 
@@ -29,15 +29,16 @@ cd code
 bash preprocess_data.sh
 ```
 
-(ii) Then, to train a neural network with the preprocessed data, run the code as follows:
+(ii) Then, to train a neural network with the above preprocessed data, run the code as follows:
 ```
 bash run_training.sh
 ```
 
-You can change the hyperparameters in preprocess_data.sh and run_training.sh.
+You can change the hyperparameters in preprocess_data.sh and run_training.sh and try to train various models.
 
 
 ## Train your data of compound-protein interaction
+
 In the directory of dataset/sample/original/, we have "smiles_sequence_interaction.txt."
 In this file, 1 means that the compound-protein pair interacts
 and 0 means that the compound-protein pair does not interact.
