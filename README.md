@@ -1,5 +1,7 @@
 # Compound-protein Interaction Prediction
 
+Modified by ascourtas
+
 The code for "Compound-protein Interaction Prediction
 with End-to-end Learning of Neural Networks for Graphs and Sequence" (Tsubaki et al., Bioinformatics, 2018).
 
